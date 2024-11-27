@@ -1,4 +1,4 @@
 def GetHello(string):
-    print('Hello la Plateforme')
+    return('Hello la Plateforme')
 
 GetHello('')
