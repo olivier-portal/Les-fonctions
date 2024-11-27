@@ -1,3 +1,5 @@
+minutes = int(input('Entre le nombre de minutes : '))
+
 def time_to_text(minutes):
     
     # if minutes n'est pas un int!!!! ou float
@@ -23,12 +25,14 @@ def time_to_text(minutes):
             return (f'{heure} heure et {minutes} minutes')
         
 
-print(time_to_text(1))
+# print(time_to_text(1))
 
-print(time_to_text(59))
+# print(time_to_text(59))
 
-print(time_to_text(75))
+# print(time_to_text(75))
 
-print(time_to_text(479))
+# print(time_to_text(479))
 
-print(time_to_text(-10))
+# print(time_to_text(-10))
+
+print(time_to_text(minutes))
